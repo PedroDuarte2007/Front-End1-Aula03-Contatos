@@ -28,7 +28,7 @@ cadastro.addEventListener('submit', async e =>{
 
 async function preencherTabela(){
     tcorpo.innerHTML = '';
-    listaArmazenada.forEach((c, i, u) => {
+    listaArmazenada.forEach((c, i) => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
             <td>${c.nome}</td>
